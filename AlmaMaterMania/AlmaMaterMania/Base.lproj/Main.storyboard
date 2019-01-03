@@ -188,6 +188,7 @@
                     </view>
                     <connections>
                         <outlet property="nextBtn" destination="tva-c2-dJ2" id="hM2-zH-ge9"/>
+                        <segue destination="dL0-HF-AlL" kind="show" identifier="questionVCSegue" id="fY0-Jv-9Qk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XLe-do-D5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -198,7 +199,7 @@
         <!--QuestionVC-->
         <scene sceneID="UAf-hW-yru">
             <objects>
-                <viewController id="dL0-HF-AlL" customClass="questionVC" customModule="AlmaMaterMania" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dL0-HF-AlL" customClass="QuestionVC" customModule="AlmaMaterMania" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cQe-mP-ceF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

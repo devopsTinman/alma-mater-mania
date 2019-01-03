@@ -22,25 +22,28 @@ class PickSchoolVC: UIViewController {
 
     
     @IBAction func btnUNIClicked(_ sender: Any) {
+        selectSchool(selectedSchool: "UNI")
     }
     
     @IBAction func btnUofIClicked(_ sender: Any) {
+        selectSchool(selectedSchool: "UofI")
     }
     
     @IBAction func btnISUClicked(_ sender: Any) {
+        selectSchool(selectedSchool: "ISU")
     }
     
     @IBAction func btnNextClicked(_ sender: Any) {
         performSegue(withIdentifier: "questionVCSegue", sender: self)
     }
     
-    func selectLeague(selectedSchool: String) {
+    func selectSchool(selectedSchool: String) {
         player.selectedUniversity = selectedSchool
         nextBtn.isEnabled = true
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let questionVC = segue.destination as? questionVC {
+        if let questionVC = segue.destination as? QuestionVC {
             questionVC.player = player
         }
     }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class questionVC: UIViewController {
+class QuestionVC: UIViewController {
 
     var player: Player!
     

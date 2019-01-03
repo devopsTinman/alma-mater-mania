@@ -17,7 +17,7 @@
 		7135B42121DD5B6D00B86C4B /* QuestionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7135B42021DD5B6D00B86C4B /* QuestionSet.swift */; };
 		7135B42321DD5C6100B86C4B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7135B42221DD5C6100B86C4B /* Player.swift */; };
 		7135B42521DD5FF000B86C4B /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7135B42421DD5FF000B86C4B /* AnswerButton.swift */; };
-		7135B42721DD668000B86C4B /* questionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7135B42621DD668000B86C4B /* questionVC.swift */; };
+		7135B42921DE220F00B86C4B /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7135B42821DE220F00B86C4B /* QuestionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		7135B42021DD5B6D00B86C4B /* QuestionSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSet.swift; sourceTree = "<group>"; };
 		7135B42221DD5C6100B86C4B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		7135B42421DD5FF000B86C4B /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
-		7135B42621DD668000B86C4B /* questionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionVC.swift; sourceTree = "<group>"; };
+		7135B42821DE220F00B86C4B /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 			children = (
 				7135B41C21DD30FE00B86C4B /* PickSchoolVC.swift */,
 				7135B41E21DD567400B86C4B /* WelcomeVC.swift */,
-				7135B42621DD668000B86C4B /* questionVC.swift */,
+				7135B42821DE220F00B86C4B /* QuestionVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 				7135B41D21DD30FE00B86C4B /* PickSchoolVC.swift in Sources */,
 				7135B40621DD25A700B86C4B /* AppDelegate.swift in Sources */,
 				7135B41B21DD2B1900B86C4B /* BorderButton.swift in Sources */,
-				7135B42721DD668000B86C4B /* questionVC.swift in Sources */,
+				7135B42921DE220F00B86C4B /* QuestionVC.swift in Sources */,
 				7135B42521DD5FF000B86C4B /* AnswerButton.swift in Sources */,
 				7135B42321DD5C6100B86C4B /* Player.swift in Sources */,
 				7135B41F21DD567400B86C4B /* WelcomeVC.swift in Sources */,
