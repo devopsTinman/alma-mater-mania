@@ -10,8 +10,20 @@ import Foundation
 
 struct Player {
     
-    var playerName: String?
-    var homeUniversity: String?
-    var selectedUniversity: String?
+    private(set) public var playerId: Int?
+    private(set) public var playerName: String?
+    private(set) public var homeUniversityCode: String?
+    private(set) public var selectedUniversityCode: String?
+    private(set) public var correctAnswers: Int?
+    private(set) public var incorrectAnswers: Int?
 
+    
+    init(playerId: Int, playerName: String, homeUniversityCode: String, selectedUniversiyCode: String, correctAnswers: Int, incorrectAnswers: Int) {
+        self.playerId = playerId
+        self.playerName = playerName
+        self.homeUniversityCode = homeUniversityCode
+        self.correctAnswers = correctAnswers
+        self.incorrectAnswers = incorrectAnswers
+    }
+    
 }
