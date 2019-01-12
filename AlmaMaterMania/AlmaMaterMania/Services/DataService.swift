@@ -11,7 +11,7 @@ import Foundation
 class DataService {
     static let instance = DataService()
     
-    
+    private let player = Player(playerId: 1, playerName: "Eamon Allbee", homeUniversityCode: "UNI", selectedUniversiyCode: "UNI", correctAnswers: 0, incorrectAnswers: 0)
     
     private  let questions = [
         Questions(questionId: 1, universityCode: "UNI", questionText: "What are UNI's school colors?"),
@@ -28,6 +28,10 @@ class DataService {
         Answers(questionId: 2, answerText: "Iowa City", isCorrect: false),
         Answers(questionId: 2, answerText: "Ames", isCorrect: false)
     ]
+    
+    func getPlayer() -> Player {
+        return player
+    }
     
     func getQuestions() -> [Questions] {
         return questions

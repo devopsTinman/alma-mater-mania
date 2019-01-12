@@ -9,16 +9,17 @@
 import UIKit
 
 class PickSchoolVC: UIViewController {
-    var player = Player()
+    
+    var player = DataService.instance.getPlayer()
+    var selectedUniversityCode: String?
+    
     @IBOutlet weak var nextBtn: BorderButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        player = Player()
-        
+       
         // Do any additional setup after loading the view.
     }
-
 
     
     @IBAction func btnUNIClicked(_ sender: Any) {
@@ -38,7 +39,6 @@ class PickSchoolVC: UIViewController {
     }
     
     func selectSchool(selectedSchool: String) {
-        player.selectedUniversity = selectedSchool
         nextBtn.isEnabled = true
     }
     
